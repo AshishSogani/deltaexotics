@@ -5,6 +5,7 @@ import HomeWelcome from '../Component/Home/HomeWelcome'
 import HomeUniqueCollection from '../Component/Home/HomeUniqueCollection'
 import HomeInventory from '../Component/Home/HomeInventory'
 import HomeContact from '../Component/Home/HomeContact'
+import HomeServices from '../Component/Home/HomeServices'
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <section className='main-wrap'>
                 <Header/>
                 <HomeBanner/>
+                <HomeServices/>
             </section>
             <HomeWelcome/>
             <HomeUniqueCollection/>
