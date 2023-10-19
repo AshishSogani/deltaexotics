@@ -27,8 +27,18 @@ import lnkIcon from '../Assets/img/icon-linked-in.svg'
 
 import mapPinIcon from '../Assets/img/map-pin.svg'
 import callIcon from '../Assets/img/phone-icon.svg'
+import menuIcon from '../Assets/img/icon-menu.svg'
+import { useState } from 'react'
 
 const Home = () => {
+    const [menuActive, setMobileMenu] = useState(false);
+    const mobileMenuIcon = () => {
+        setMobileMenu(!menuActive);
+    }
+    const [mobileSearchActive, setmobileSearchActive] = useState(false);
+    const mobileSearchIcon = () => {
+        setmobileSearchActive(!mobileSearchActive);
+    }
     return (
         <>
             <section className='main-wrap'>
@@ -40,7 +50,7 @@ const Home = () => {
                                     <img src={mainLogo} alt='Delta Exotics'/>
                                 </a>
                             </div>
-                            <div className='main-menu'>
+                            <div className={`main-menu ${menuActive? "show" : ""}`}>
                                 <ul>
                                     <li>
                                         <a href='#' className='active'>Home</a>
@@ -56,27 +66,34 @@ const Home = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className='search-box ms-auto'>
+                            <div className={`search-box ms-auto ${mobileSearchActive ? "show" : ""}`}>
                                 <input type='text' className='search-field' placeholder='Search'/>
                                 <button className='search-icon' type='button'></button>
                             </div>
+                            <button className='search-icon ms-auto d-block d-md-none' type='button' onClick={mobileSearchIcon}></button>
+                            <button className='mobile-menu-icon d-md-none' type='button' onClick={mobileMenuIcon}>
+                                <img src={menuIcon} alt='icon'/>
+                            </button>
                         </div>
                     </div>
                 </header>
                 <section className='home-bannner-wrap'>
                     <div className='container'>
-                        <div className='d-flex align-items-center'>
+                        <div className='d-flex align-items-center hb-block'>
+                            <div className='feel-collection-img mb-4 d-md-none'>
+                                <img src={feelForce} alt='feel the force'/>
+                            </div>
+                            <div className='order-2 banner-car-img'>
+                                <img src={carImg} alt='car'/>
+                            </div>
                             <div>
-                                <div className='feel-collection-img mb-4'>
+                                <div className='feel-collection-img mb-4 d-none d-md-block'>
                                     <img src={feelForce} alt='feel the force'/>
                                 </div>
                                 <div className='lg-title'>Browse Private Collection</div>
                                 <div className='mt-4'>
                                     <a href='#' className='trans-theme-btn d-inline-block'>View Collection</a>
                                 </div>
-                            </div>
-                            <div>
-                                <img src={carImg} alt='car'/>
                             </div>
                         </div>
                     </div>
@@ -87,7 +104,7 @@ const Home = () => {
                             <div className='col-md-4'>
                                 <div className='service-box'>
                                     <div className='md-title d-flex align-items-center'>
-                                        <div className='me-2'><img className='me-2' src={arrowRight} alt='arrow'/></div> 
+                                        <div className='me-2'><img src={arrowRight} alt='arrow'/></div> 
                                         <div>Our Story</div>
                                     </div>
                                     <div className='border-cs mt-3 mb-3'></div>
@@ -100,7 +117,7 @@ const Home = () => {
                             <div className='col-md-4'>
                                 <div className='service-box'>
                                     <div className='md-title d-flex align-items-center'>
-                                        <div className='me-2'><img className='me-2' src={arrowRight} alt='arrow'/></div> 
+                                        <div className='me-2'><img src={arrowRight} alt='arrow'/></div> 
                                         <div>Core Values</div>
                                     </div>
                                     <div className='border-cs mt-3 mb-3'></div>
@@ -113,7 +130,7 @@ const Home = () => {
                             <div className='col-md-4'>
                                 <div className='service-box'>
                                     <div className='md-title d-flex align-items-center'>
-                                        <div className='me-2'><img className='me-2' src={arrowRight} alt='arrow'/></div> 
+                                        <div className='me-2'><img src={arrowRight} alt='arrow'/></div> 
                                         <div>Chartered Trips</div>
                                     </div>
                                     <div className='border-cs mt-3 mb-3'></div>
@@ -194,11 +211,13 @@ const Home = () => {
                 </div>
             </section>
             <section className='unique-collections-wrap'>
-                <div className='container'>
-                    <div className='main-title text-center text-uppercase'>Our Unique Collections</div>
-                    <div className='mt-5 pt-2 text-center'>
-                        <button className='read-more-btn text-uppercase unique-btn me-5' type='button'>Shop Now</button>
-                        <button className='read-more-btn text-uppercase unique-btn' type='button'>Reach Out</button>
+                <div className='unique-collections-pos'>
+                    <div className='container'>
+                        <div className='main-title text-center text-uppercase'>Our Unique Collections</div>
+                        <div className='mt-5 pt-2 text-center'>
+                            <button className='read-more-btn text-uppercase unique-btn me-5' type='button'>Shop Now</button>
+                            <button className='read-more-btn text-uppercase unique-btn' type='button'>Reach Out</button>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -324,7 +343,7 @@ const Home = () => {
                 <div className='conatct-gradient'>
                     <div className='container'>
                         <div className='main-title text-start'>Contact Us</div>
-                        <div className='d-flex align-items-center mt-4'>
+                        <div className='d-flex align-items-center mt-4 contact-info-flex'>
                             <div className='d-flex align-items-center address-text'>
                                 <div className='cont-icon me-2'>
                                     <img src={mapPinIcon} alt='address'/>
@@ -389,6 +408,7 @@ const Home = () => {
             <footer className='footer-wrap'>
                 <div className='container'>
                     <div className='d-flex align-items-center justify-content-between'>
+                        <div className='copyright order-2'>Copyright &copy; Delta Exotics</div>
                         <div className='social-list order-2'>
                             <a href='#'>
                                 <img src={fbIcon} alt='facebook'/>
@@ -409,7 +429,6 @@ const Home = () => {
                                 <img src={lnkIcon} alt='linkedIn'/>
                             </a>
                         </div>
-                        <div className='copyright'>Copyright &copy; Delta Exotics</div>
                     </div>
                 </div>
             </footer>

@@ -267,9 +267,18 @@ a.read-more-btn {
 
 .unique-collections-wrap {
     background: url(../img/unique-collection.jpg) no-repeat center top;
-    padding: 160px 0 280px;
+    /* padding: 160px 0 280px; */
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
+    height: 640px;
+}
+.unique-collections-pos {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 .main-title {
     color: #FFFFFF;
@@ -408,4 +417,9 @@ a.read-more-btn {
 }
 .social-list a {
     margin-left: 30px;
+}
+.mobile-menu-icon {
+    background: transparent;
+    border: none;
+    margin-left: 10px;
 }
