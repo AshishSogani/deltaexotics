@@ -19,7 +19,7 @@ const HomeBanner = () => {
                             </div>
                             <div className='lg-title'>Browse Private Collection</div>
                             <div className='mt-4'>
-                                <Link to='#' className='trans-theme-btn d-inline-block'>View Collection</Link>
+                                <Link to='/collections' className='trans-theme-btn d-inline-block'>View Collection</Link>
                             </div>
                         </div>
                     </div>

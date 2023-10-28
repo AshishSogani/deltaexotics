@@ -25,16 +25,16 @@ const Header = () => {
                         <div className={`main-menu ${menuActive ? "show" : ""}`}>
                             <ul>
                                 <li>
-                                    <NavLink to='#' className='active'>Home</NavLink>
+                                    <NavLink to='/' className='active'>Home</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='#'>Inventory</NavLink>
+                                    <NavLink to='/inventory'>Inventory</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='#'>Finance</NavLink>
+                                    <NavLink to='/finance'>Finance</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='#'>About Us</NavLink>
+                                    <NavLink to='/about-us'>About Us</NavLink>
                                 </li>
                             </ul>
                         </div>

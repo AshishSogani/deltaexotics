@@ -43,6 +43,7 @@ import thumb25 from '../Assets/img/cb-thumb-5.png'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { Link } from 'react-router-dom'
 
 const Collections = () => {
     const images = [
@@ -185,8 +186,8 @@ const Collections = () => {
                                             <div className='cb-sub-title mb-0'>488 SPIDER BASE</div>
                                             <div className='gray-title'>Mileage: 7,200</div>
                                             <div className='collection-value mt-2'>$289,999</div>
-                                            <div className='mt-5'>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                            <div className='mt-4'>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -205,8 +206,8 @@ const Collections = () => {
                                             <div className='cb-sub-title mb-0'>488 SPIDER BASE</div>
                                             <div className='gray-title'>Mileage: 7,200</div>
                                             <div className='collection-value mt-2'>$289,999</div>
-                                            <div className='mt-5'>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                            <div className='mt-4'>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -225,8 +226,8 @@ const Collections = () => {
                                             <div className='cb-sub-title mb-0'>488 SPIDER BASE</div>
                                             <div className='gray-title'>Mileage: 7,200</div>
                                             <div className='collection-value mt-2'>$289,999</div>
-                                            <div className='mt-5'>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                            <div className='mt-4'>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -245,8 +246,8 @@ const Collections = () => {
                                             <div className='cb-sub-title mb-0'>488 SPIDER BASE</div>
                                             <div className='gray-title'>Mileage: 7,200</div>
                                             <div className='collection-value mt-2'>$289,999</div>
-                                            <div className='mt-5'>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                            <div className='mt-4'>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -281,8 +282,8 @@ const Collections = () => {
                                             <div className='cb-sub-title mb-0'>Challenger SRT Hellcat Redeye Widebody</div>
                                             <div className='gray-title'>Mileage: 15</div>
                                             <div className='collection-value mt-2'>$220,000</div>
-                                            <div className='mt-5'>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                            <div className='mt-4'>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -301,8 +302,8 @@ const Collections = () => {
                                             <div className='cb-sub-title mb-0'>Challenger SRT Hellcat Redeye Widebody</div>
                                             <div className='gray-title'>Mileage: 15</div>
                                             <div className='collection-value mt-2'>$220,000</div>
-                                            <div className='mt-5'>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                            <div className='mt-4'>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -321,8 +322,8 @@ const Collections = () => {
                                             <div className='cb-sub-title mb-0'>Challenger SRT Hellcat Redeye Widebody</div>
                                             <div className='gray-title'>Mileage: 15</div>
                                             <div className='collection-value mt-2'>$220,000</div>
-                                            <div className='mt-5'>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                            <div className='mt-4'>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -341,8 +342,8 @@ const Collections = () => {
                                             <div className='cb-sub-title mb-0'>Challenger SRT Hellcat Redeye Widebody</div>
                                             <div className='gray-title'>Mileage: 15</div>
                                             <div className='collection-value mt-2'>$220,000</div>
-                                            <div className='mt-5'>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                            <div className='mt-4'>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -361,8 +362,8 @@ const Collections = () => {
                                             <div className='cb-sub-title mb-0'>Challenger SRT Hellcat Redeye Widebody</div>
                                             <div className='gray-title'>Mileage: 15</div>
                                             <div className='collection-value mt-2'>$220,000</div>
-                                            <div className='mt-5'>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                            <div className='mt-4'>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -397,8 +398,8 @@ const Collections = () => {
                                             <div className='cb-sub-title mb-0'>911 CARRERA S</div>
                                             <div className='gray-title'>Mileage: 20</div>
                                             <div className='collection-value mt-2'>$209,999</div>
-                                            <div className='mt-5'>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                            <div className='mt-4'>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -417,8 +418,8 @@ const Collections = () => {
                                             <div className='cb-sub-title mb-0'>911 CARRERA S</div>
                                             <div className='gray-title'>Mileage: 20</div>
                                             <div className='collection-value mt-2'>$209,999</div>
-                                            <div className='mt-5'>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                            <div className='mt-4'>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -437,8 +438,8 @@ const Collections = () => {
                                             <div className='cb-sub-title mb-0'>911 CARRERA S</div>
                                             <div className='gray-title'>Mileage: 20</div>
                                             <div className='collection-value mt-2'>$209,999</div>
-                                            <div className='mt-5'>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                            <div className='mt-4'>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -457,8 +458,8 @@ const Collections = () => {
                                             <div className='cb-sub-title mb-0'>911 CARRERA S</div>
                                             <div className='gray-title'>Mileage: 20</div>
                                             <div className='collection-value mt-2'>$209,999</div>
-                                            <div className='mt-5'>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                            <div className='mt-4'>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>

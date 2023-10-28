@@ -28,11 +28,11 @@
     .trans-theme-btn {
         font-size: 18px;
     }
-    .md-title {
+    .service-box .md-title {
         font-size: 22px;
         line-height: 28px;
     }
-    .md-title img {
+    .service-box .md-title img {
         max-width: 22px;
         vertical-align: -4px;
     }
@@ -117,6 +117,133 @@
         padding-left: 35px !important;
         padding-right: 35px !important;
     }
+    .brand-logo img {
+        max-height: 88px;
+    }
+    .header-block {
+        padding: 20px 40px;
+    }
+    .hb-title {
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+        line-height: 36px;
+    }
+    .header-block .mt-3 {
+        margin-top: 0.5rem !important;
+    }
+    .gray-title {
+        font-size: 21px;
+        letter-spacing: -0.25px;
+        line-height: 24px;
+    }
+    .hb-value {
+        font-size: 30px;
+        letter-spacing: -0.41px;
+        line-height: 34px;
+    }
+    .hb-value.ms-4 {
+        margin-left: 1rem !important;
+    }
+    .cb-title {
+        font-size: 40px;
+        letter-spacing: -0.57px;
+        line-height: 44px;
+    }
+    .cb-sub-title {
+        font-size: 24px;
+        letter-spacing: -0.3px;
+        line-height: 28px;
+        min-height: 74px;
+    }
+    .collection-value {
+        font-size: 40px;
+        letter-spacing: -0.5px;
+        line-height: 45px;
+    }
+    .cb-view-dtl {
+        padding: 12px 38px;
+    }
+    .cb-right .mt-4 {
+        margin-top: 1rem !important;
+    }
+    .brand-logo img {
+        max-width: 250px;
+    }
+    .collection-slider.owl-carousel .owl-nav button.owl-prev,
+    .collection-slider.owl-carousel .owl-nav button.owl-next {
+        width: 50px;
+        height: 50px;
+    }
+    .cb-right {
+        padding: 30px 40px;
+    }
+    .send-btn,
+    .vdtl-inquire-btn {
+        font-size: 18px;
+        letter-spacing: -0.25px;
+        line-height: 22px;
+        padding: 12px 45px;
+    }
+    .view-dtl-block .mt-5 {
+        margin-top: 1.5rem !important;
+    }
+    .view-dtl-block .mt-4 {
+        margin-top: 1rem !important;
+    }
+    .cs-tabs ul li a {
+        font-size: 22px;
+    }
+    .view-dtl-box p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .view-dtl-box {
+        padding: 30px;
+    }
+    .mt-100 {
+        margin-top: 60px;
+    }
+    .mt-80 {
+        margin-top: 40px;
+    }
+    .vdb-title {
+        font-size: 20px;
+        letter-spacing: -0.25px;
+        line-height: 26px;
+    }
+    .custom-form .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .custom-form .col-md-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .vdtl-heading img {
+        max-height: 60px;
+    }
+    .view-dtl-left {
+        width: calc(100% - 340px);
+        padding-right: 30px;
+    }
+    .view-dtl-right {
+        width: 340px;
+    }
+    .custom-table tr th,
+    .custom-table tr td {
+        font-size: 14px;
+        padding: 12px 0;
+        font-weight: 600;
+    }
+    .craft-logo img {
+        max-width: 120px;
+    }
+    .blue-link {
+        font-size: 16px;
+        letter-spacing: -0.25px;
+        line-height: 20px;
+    }
 }
 @media(max-width:1100px) {
     .main-menu li a {
@@ -175,6 +302,116 @@
     .main-menu {
         padding-left: 40px;
     }
+    .collection-box {
+        padding: 25px 0px;
+    }
+    .collection-slider.owl-carousel .owl-nav button.owl-prev {
+        width: 38px;
+        height: 38px;
+        left: 10px;
+    }
+    .collection-slider.owl-carousel .owl-nav button.owl-next {
+        width: 38px;
+        height: 38px;
+        right: 10px;
+    }
+    .inventory-title {
+        font-size: 82px;
+        line-height: 84px;
+        letter-spacing: -3px;
+    }
+    .hb-title {
+        font-size: 26px;
+        line-height: 24px;
+    }
+    .gray-title {
+        font-size: 18px;
+        letter-spacing: -0.15px;
+        line-height: 20px;
+    }
+    .hb-value {
+        font-size: 24px;
+        letter-spacing: -0.41px;
+        line-height: 28px;
+    }
+    .cb-title {
+        font-size: 32px;
+        letter-spacing: -0.25px;
+        line-height: 34px;
+    }
+    .cb-sub-title {
+        font-size: 20px;
+        letter-spacing: -0.3px;
+        line-height: 24px;
+        min-height: 60px;
+    }
+    .collection-value {
+        font-size: 34px;
+        letter-spacing: -0.25px;
+        line-height: 40px;
+    }
+    .read-more-btn {
+        font-size: 17px;
+        letter-spacing: -0.25px;
+    }
+    .cb-right {
+        padding: 24px 32px;
+    }
+    .brand-logo img {
+        max-width: 200px;
+        max-height: 60px;
+    }
+    .cs-tabs ul li a {
+        font-size: 16px;
+        letter-spacing: 0.25px;
+    }
+    .vdtl-title {
+        font-size: 22px;
+        letter-spacing: -0.25px;
+        line-height: 24px;
+    }
+    .view-dtl-block.mt-5 {
+        margin-top: 1.5rem !important;
+    }
+    .cs-tabs {
+        padding: 20px 0 10px;
+    }
+    .cs-tabs ul li a {
+        padding: 8px 30px;
+    }
+    .view-dtl-block {
+        display: block !important;
+    }
+    .view-dtl-left {
+        width: 100%;
+        padding-right: 0;
+    }
+    .gallery-block {
+        padding: 20px 0 40px;
+    }
+    .view-dtl-block .col-md-6 {
+        width: 100%;
+    }
+    .view-dtl-block {
+        padding-bottom: 15px;
+    }
+    .gallery-slider.owl-carousel .owl-nav button.owl-prev {
+        width: 50px;
+        height: 50px;
+        left: -30px;
+    } 
+    .gallery-slider.owl-carousel .owl-nav button.owl-next {
+        width: 50px;
+        height: 50px;
+        right: -30px;
+    }
+    .view-dtl-right {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .read-more-btn.send-btn {
+        max-width: 200px;
+    }
 }
 @media(max-width:767px) {
     .header-wrap .container {
@@ -191,10 +428,6 @@
     }
     .welcome-delta-wrap {
         padding: 70px 0 50px;
-    }
-    .inventory-title {
-        font-size: 82px;
-        line-height: 84px;
     }
     .inventory-title.mb-5 {
         margin-bottom: 1rem !important;
@@ -380,8 +613,90 @@
     .social-list a:first-child {
         margin-left: 0;
     }
+    .collection-box {
+        flex-wrap: wrap;
+    }
+    .collection-box .w-50 {
+        width: 100% !important;
+    }
+    .cb-sub-title {
+        min-height: auto;
+        margin-bottom: 15px !important;
+    }
+    .inside-bg-wrap {
+        background: url(../img/bg-geometric.svg) no-repeat calc(100% + 250px) bottom;
+        background-size: 100%;
+    }
+    .view-dtl-box {
+        padding: 20px;
+    }
+    .mt-100 {
+        margin-top: 30px;
+    }
+    .mt-80 {
+        margin-top: 30px;
+    }
+    .view-dtl-box p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .send-btn, 
+    .vdtl-inquire-btn,
+    .read-more-btn  {
+        font-size: 18px !important;
+        padding: 10px 40px !important;
+    }
+    .view-dtl-right .view-dtl-box {
+        padding: 20px;
+    }
+    .view-dtl-left .cb-title {
+        font-size: 26px;
+        letter-spacing: -0.25px;
+        line-height: 30px;
+    }
 }
-
+@media(max-width:600px) {
+    .header-block {
+        padding: 15px 20px;
+        flex-wrap: wrap;
+        display: block !important;
+    }
+    .header-block .brand-logo {
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    .header-block .text-end {
+        text-align: left !important;
+    }
+    .cb-right {
+        padding: 20px;
+    }
+    .read-more-btn {
+        padding: 8px 26px;
+        font-size: 15px;
+    }
+    .inside-bg-wrap {
+        padding: 30px 0 220px;
+    }
+    .inventory-title {
+        font-size: 42px;
+        line-height: 52px;
+        letter-spacing: 0;
+    }
+}
+@media(max-width:420px) {
+    .cs-tabs ul li a {
+        padding: 4px 18px;
+        font-size: 12px;
+    }
+    .custom-form .form-group {
+        margin-bottom: 22px;
+    }
+    .view-dtl-left .read-more-btn.send-btn {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}
 @media(max-width:380px) {
     .social-list a {
         margin-left: 20px;

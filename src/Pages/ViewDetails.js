@@ -11,7 +11,7 @@ import galleryImg3 from '../Assets/img/vdp-thumb3.jpg'
 import galleryImg4 from '../Assets/img/vdp-thumb4.jpg'
 import galleryImg5 from '../Assets/img/vdp-thumb5.jpg'
 import galleryImg6 from '../Assets/img/vdp-thumb6.jpg'
-import carImg from '../Assets/img/car.png'
+import carImg from '../Assets/img/image-removebg-preview.png'
 import brandLogo from '../Assets/img/Ferrari-Logo.png'
 import brandText from '../Assets/img/ferrari-text.svg'
 import phoneIcon from '../Assets/img/phone-icon.svg'
@@ -58,7 +58,7 @@ const ViewDetails = () => {
                         <li className="breadcrumb-item active" aria-current="page">Ferrari</li>
                     </ol>
                 </nav>
-                <div className='row'>
+                <div className='row mt-5 view-dtl-block'>
                     <div className='col-md-6'>
                         <img src={carImg} alt='image'/>
                     </div>

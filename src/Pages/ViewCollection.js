@@ -14,6 +14,7 @@ import thumb2 from '../Assets/img/cb-thumb-2.png'
 import thumb3 from '../Assets/img/cb-thumb-3.png'
 import thumb4 from '../Assets/img/cb-thumb-4.png'
 import thumb5 from '../Assets/img/cb-thumb-5.png'
+import { Link } from 'react-router-dom';
 
 
 const ViewCollection = () => {
@@ -117,7 +118,7 @@ const ViewCollection = () => {
                                                 <div className='collection-value mt-2'>$289,999</div>
                                             </div>
                                             <div>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -139,7 +140,7 @@ const ViewCollection = () => {
                                                 <div className='collection-value mt-2'>$289,999</div>
                                             </div>
                                             <div>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -161,7 +162,7 @@ const ViewCollection = () => {
                                                 <div className='collection-value mt-2'>$289,999</div>
                                             </div>
                                             <div>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -183,7 +184,7 @@ const ViewCollection = () => {
                                                 <div className='collection-value mt-2'>$289,999</div>
                                             </div>
                                             <div>
-                                                <button type='button' className='read-more-btn text-uppercase cb-view-dtl'>View Details</button>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>

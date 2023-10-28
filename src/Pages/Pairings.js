@@ -12,6 +12,7 @@ import carImg2 from '../Assets/img/Ferrari-pair.png'
 import PorscheLogo from '../Assets/img/porsche-logo.png'
 import PorscheText from '../Assets/img/Porsche-Text.svg'
 import carImg3 from '../Assets/img/Porsche_Pair.png'
+import { Link } from 'react-router-dom'
 
 const Pairings = () => {
 
@@ -68,7 +69,7 @@ const Pairings = () => {
                                         <div className='paring-car-img'>
                                             <img src={carImg1}/>
                                         </div>
-                                        <div className="text-end"><button type="button" className="read-more-btn text-uppercase cb-view-dtl">View Details</button></div>
+                                        <div className="text-end"><Link to="/view-details" className="read-more-btn text-uppercase cb-view-dtl">View Details</Link></div>
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +108,7 @@ const Pairings = () => {
                                         <div className='paring-car-img'>
                                             <img src={carImg2}/>
                                         </div>
-                                        <div className="text-end"><button type="button" className="read-more-btn text-uppercase cb-view-dtl">View Details</button></div>
+                                        <div className="text-end"><Link to="/view-details" className="read-more-btn text-uppercase cb-view-dtl">View Details</Link></div>
                                     </div>
                                 </div>
                             </div>
@@ -146,7 +147,7 @@ const Pairings = () => {
                                         <div className='paring-car-img'>
                                             <img src={carImg3}/>
                                         </div>
-                                        <div className="text-end"><button type="button" className="read-more-btn text-uppercase cb-view-dtl">View Details</button></div>
+                                        <div className="text-end"><Link to="/view-details" className="read-more-btn text-uppercase cb-view-dtl">View Details</Link></div>
                                     </div>
                                 </div>
                             </div>
