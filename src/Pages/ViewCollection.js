@@ -81,7 +81,7 @@ const ViewCollection = () => {
                                 <li className="breadcrumb-item active" aria-current="page">Ferrari</li>
                             </ol>
                         </nav>
-                        <div className='d-flex align-items-end justify-content-between'>
+                        <div className='d-flex align-items-end justify-content-between vc-main-header'>
                             <div className='inventory-title text-start text-uppercase mb-0'>Ferrari</div>
                             <div className='d-inline-flex align-items-center pb-4'>
                                 <div className='view-label'>View by </div>
@@ -118,7 +118,7 @@ const ViewCollection = () => {
                                                 <div className='collection-value mt-2'>$289,999</div>
                                             </div>
                                             <div>
-                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl'>View Details</Link>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -140,7 +140,7 @@ const ViewCollection = () => {
                                                 <div className='collection-value mt-2'>$289,999</div>
                                             </div>
                                             <div>
-                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl'>View Details</Link>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -162,7 +162,7 @@ const ViewCollection = () => {
                                                 <div className='collection-value mt-2'>$289,999</div>
                                             </div>
                                             <div>
-                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl'>View Details</Link>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -184,7 +184,7 @@ const ViewCollection = () => {
                                                 <div className='collection-value mt-2'>$289,999</div>
                                             </div>
                                             <div>
-                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl'>View Details</Link>
+                                                <Link to='/view-details' className='read-more-btn text-uppercase cb-view-dtl d-inline-block'>View Details</Link>
                                             </div>
                                         </div>
                                     </div>

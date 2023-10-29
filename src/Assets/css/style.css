@@ -800,7 +800,7 @@ a.read-more-btn {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
 }
-.md-title {
+.pmd-title {
     color: #FFFFFF;
     font-weight: 900;
     font-size: 70px;

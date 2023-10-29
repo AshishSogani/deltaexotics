@@ -40,7 +40,7 @@ const Pairings = () => {
                                         <div className='paring-logo'>
                                             <img src={dodgeLogo}/>
                                         </div>
-                                        <div className='md-title opacity-0-2 text-uppercase mt-4'>Hellcat Set</div>
+                                        <div className='pmd-title opacity-0-2 text-uppercase mt-4'>Hellcat Set</div>
                                     </div>
                                     <div>
                                         <div className='paring-text'>
@@ -48,7 +48,13 @@ const Pairings = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='d-flex justify-content-between'>
+                                <div className='d-flex justify-content-between pairing-dtl'>
+                                    <div className='w-60 order-2'>
+                                        <div className='paring-car-img'>
+                                            <img src={carImg1}/>
+                                        </div>
+                                        <div className="text-end d-none d-lg-block"><Link to="/view-details" className="read-more-btn text-uppercase cb-view-dtl">View Details</Link></div>
+                                    </div>
                                     <div className='pt-5 w-40 pe-5'>
                                         <div className='paring-col'>
                                             <div className='hb-title text-uppercase'>2023 CHALLENGER</div>
@@ -62,14 +68,9 @@ const Pairings = () => {
                                         </div>
                                         <div className='mt-5'>
                                             <div className='sm-title text-uppercase fw-700 text-white'>Pricing for Set:</div>
-                                            <div className='md-title text-uppercase fw-700 text-white mt-3'>$399K</div>
+                                            <div className='pmd-title text-uppercase fw-700 text-white mt-3'>$399K</div>
                                         </div>
-                                    </div>
-                                    <div className='w-60'>
-                                        <div className='paring-car-img'>
-                                            <img src={carImg1}/>
-                                        </div>
-                                        <div className="text-end"><Link to="/view-details" className="read-more-btn text-uppercase cb-view-dtl">View Details</Link></div>
+                                        <div className="text-end d-lg-none"><Link to="/view-details" className="read-more-btn text-uppercase cb-view-dtl">View Details</Link></div>
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +80,7 @@ const Pairings = () => {
                                         <div className='paring-logo'>
                                             <img src={ferrariLogo}/>
                                         </div>
-                                        <div className='md-title opacity-0-2 text-uppercase mt-4'>Ferrari Set</div>
+                                        <div className='pmd-title opacity-0-2 text-uppercase mt-4'>Ferrari Set</div>
                                     </div>
                                     <div>
                                         <div className='paring-text'>
@@ -87,7 +88,13 @@ const Pairings = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='d-flex justify-content-between'>
+                                <div className='d-flex justify-content-between pairing-dtl'>
+                                    <div className='w-60 order-2'>
+                                        <div className='paring-car-img'>
+                                            <img src={carImg2}/>
+                                        </div>
+                                        <div className="text-end d-none d-lg-block"><Link to="/view-details" className="read-more-btn text-uppercase cb-view-dtl">View Details</Link></div>
+                                    </div>
                                     <div className='pt-5 w-40 pe-5'>
                                         <div className='paring-col'>
                                             <div className='hb-title text-uppercase'>2018 FERRARI</div>
@@ -101,14 +108,9 @@ const Pairings = () => {
                                         </div>
                                         <div className='mt-5'>
                                             <div className='sm-title text-uppercase fw-700 text-white'>Pricing for Set:</div>
-                                            <div className='md-title text-uppercase fw-700 text-white mt-3'>$899K</div>
+                                            <div className='pmd-title text-uppercase fw-700 text-white mt-3'>$899K</div>
                                         </div>
-                                    </div>
-                                    <div className='w-60'>
-                                        <div className='paring-car-img'>
-                                            <img src={carImg2}/>
-                                        </div>
-                                        <div className="text-end"><Link to="/view-details" className="read-more-btn text-uppercase cb-view-dtl">View Details</Link></div>
+                                        <div className="text-end d-lg-none"><Link to="/view-details" className="read-more-btn text-uppercase cb-view-dtl">View Details</Link></div>
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +120,7 @@ const Pairings = () => {
                                         <div className='paring-logo'>
                                             <img src={PorscheLogo}/>
                                         </div>
-                                        <div className='md-title opacity-0-2 text-uppercase mt-4'>Carrera Set</div>
+                                        <div className='pmd-title opacity-0-2 text-uppercase mt-4'>Carrera Set</div>
                                     </div>
                                     <div>
                                         <div className='paring-text'>
@@ -126,7 +128,13 @@ const Pairings = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='d-flex justify-content-between'>
+                                <div className='d-flex justify-content-between pairing-dtl'>
+                                    <div className='w-60 order-2'>
+                                        <div className='paring-car-img'>
+                                            <img src={carImg3}/>
+                                        </div>
+                                        <div className="text-end d-none d-lg-block"><Link to="/view-details" className="read-more-btn text-uppercase cb-view-dtl">View Details</Link></div>
+                                    </div>
                                     <div className='pt-5 w-40 pe-5'>
                                         <div className='paring-col'>
                                             <div className='hb-title text-uppercase'>2021 PORSCHE</div>
@@ -140,14 +148,9 @@ const Pairings = () => {
                                         </div>
                                         <div className='mt-5'>
                                             <div className='sm-title text-uppercase fw-700 text-white'>Pricing for Set:</div>
-                                            <div className='md-title text-uppercase fw-700 text-white mt-3'>$349K</div>
+                                            <div className='pmd-title text-uppercase fw-700 text-white mt-3'>$349K</div>
                                         </div>
-                                    </div>
-                                    <div className='w-60'>
-                                        <div className='paring-car-img'>
-                                            <img src={carImg3}/>
-                                        </div>
-                                        <div className="text-end"><Link to="/view-details" className="read-more-btn text-uppercase cb-view-dtl">View Details</Link></div>
+                                        <div className="text-end d-lg-none"><Link to="/view-details" className="read-more-btn text-uppercase cb-view-dtl">View Details</Link></div>
                                     </div>
                                 </div>
                             </div>
